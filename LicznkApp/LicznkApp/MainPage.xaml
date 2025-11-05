@@ -1,0 +1,13 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LicznkApp.MainPage">
+
+    <VerticalStackLayout Padding="20">
+        <Button Text="Dodaj licznik" 
+                Clicked="OnAddClicked" 
+                BackgroundColor="LightSkyBlue"
+                WidthRequest="200"/>
+
+        <VerticalStackLayout x:Name="CounterLayout" Margin="0,20,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>
